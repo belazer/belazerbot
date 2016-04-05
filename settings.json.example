@@ -1,6 +1,6 @@
 {
   "token":"oauth token",
   "username":"the username",
-  "twiiter":"https://twitter.com/username",
+  "twitter":"https://twitter.com/username",
   "facebook":"https://facebook.com/username"
 }
