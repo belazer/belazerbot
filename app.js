@@ -31,10 +31,10 @@ client.on("chat", function (channel, user, message, self) {
       client.say("pr0pagandapandah", "Here is a list of commands: !twitter, !facebook, !sponsors");
     }
     if(message === "!twitter") {
-      client.say("pr0pagandapandah", "https://twitter.com/fbnblz");
+      client.say("pr0pagandapandah", settings.twitter);
     }
     if(message === "!facebook") {
-      client.say("pr0pagandapandah", "https://facebook.com");
+      client.say("pr0pagandapandah", settings.facebook);
     }
     if(message === "!sponsors") {
       client.say("pr0pagandapandah", "There are no sponsors BibleThump");
