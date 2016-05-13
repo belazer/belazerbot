@@ -20,7 +20,7 @@ var options = {
     username: settings.username,
     password: settings.token
   },
-  channels: ["pr0pagandapandah"]
+  channels: settings.channels
 };
 
 var client = new tmi.client(options);
